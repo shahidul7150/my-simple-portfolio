@@ -75,3 +75,7 @@ h3{
     border-left: 8px solid;
     border-image: linear-gradient(#f17a0b, #fca049) 1;
 }
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
