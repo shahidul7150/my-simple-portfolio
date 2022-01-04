@@ -25,6 +25,7 @@ h3{
 .half-width{
     width: 50%;
     padding-left: 5%;
+    
 }
 
 .half-width img{
@@ -46,4 +47,31 @@ h3{
     background-image: linear-gradient(rgb(247, 204, 85),rgb(235, 94, 12));
     border-right: 2px solid rgb(220, 223, 39);;
     border-left: none;
+}
+.dream-bg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.ex-bg{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.ex-shadow{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 70%;
+   box-shadow:  12px 12px 10px  rgba(7, 7, 36, 0.2);
+
+}
+#right-ex-border{
+    border-left: 8px solid;
+    border-image: linear-gradient(#0b22f1, #49bafc) 1;
+}
+
+#left-ex-border{
+    border-left: 8px solid;
+    border-image: linear-gradient(#f17a0b, #fca049) 1;
 }
